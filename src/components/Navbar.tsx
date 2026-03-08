@@ -4,13 +4,13 @@ import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const links = [
-  { label: "Home", href: "#hero" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "الرئيسية", href: "#hero" },
+  { label: "من نحن", href: "#about" },
+  { label: "خدماتنا", href: "#services" },
+  { label: "أعمالنا", href: "#portfolio" },
+  { label: "آراء العملاء", href: "#reviews" },
+  { label: "الأسئلة الشائعة", href: "#faq" },
+  { label: "تواصلي معنا", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -24,11 +24,10 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="#hero" className="flex items-center gap-2">
-          <img src={logo} alt="Noor Beauty Salon" className="h-12 w-12 rounded-full object-cover" />
-          <span className="font-heading text-xl font-bold text-foreground">Noor <span className="text-gradient">Beauty</span></span>
+          <img src={logo} alt="صالون نور للتجميل" className="h-12 w-12 rounded-full object-cover" />
+          <span className="font-heading text-xl font-bold text-foreground">نور <span className="text-gradient">بيوتي</span></span>
         </a>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <li key={l.href}>
@@ -46,16 +45,14 @@ const Navbar = () => {
           href="tel:+963931431668"
           className="hidden md:flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 transition"
         >
-          <Phone size={14} /> Book Now
+          <Phone size={14} /> احجزي الآن
         </a>
 
-        {/* Mobile toggle */}
         <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -80,7 +77,7 @@ const Navbar = () => {
                 href="tel:+963931431668"
                 className="flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground"
               >
-                <Phone size={14} /> Book Now
+                <Phone size={14} /> احجزي الآن
               </a>
             </ul>
           </motion.div>

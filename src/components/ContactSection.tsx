@@ -4,7 +4,7 @@ import { Phone, MapPin, Instagram, Facebook, Clock } from "lucide-react";
 const ContactSection = () => {
   return (
     <section id="contact" className="py-24 bg-cream relative overflow-hidden">
-      <div className="absolute top-10 right-10 w-72 h-72 bg-rose-glow opacity-30" />
+      <div className="absolute top-10 left-10 w-72 h-72 bg-rose-glow opacity-30" />
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -12,16 +12,15 @@ const ContactSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">Get in Touch</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary">تواصلي معنا</span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            Contact <span className="text-gradient italic">Us</span>
+            <span className="text-gradient italic">اتصلي</span> بنا
           </h2>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-          {/* Info cards */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="space-y-5"
@@ -31,8 +30,8 @@ const ContactSection = () => {
                 <Phone size={20} className="text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">Book an Appointment</h3>
-                <a href="tel:+963931431668" className="text-primary hover:underline text-sm">+963 931 431 668</a>
+                <h3 className="font-heading font-semibold text-foreground mb-1">احجزي موعدك</h3>
+                <a href="tel:+963931431668" className="text-primary hover:underline text-sm" dir="ltr">+963 931 431 668</a>
               </div>
             </div>
 
@@ -41,8 +40,8 @@ const ContactSection = () => {
                 <MapPin size={20} className="text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">Our Location</h3>
-                <p className="text-sm text-muted-foreground">G6QP+5MW, Damascus, Syria</p>
+                <h3 className="font-heading font-semibold text-foreground mb-1">موقعنا</h3>
+                <p className="text-sm text-muted-foreground">G6QP+5MW، دمشق، سوريا</p>
               </div>
             </div>
 
@@ -51,12 +50,11 @@ const ContactSection = () => {
                 <Clock size={20} className="text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">Working Hours</h3>
-                <p className="text-sm text-muted-foreground">Daily: 10:00 AM – 9:00 PM</p>
+                <h3 className="font-heading font-semibold text-foreground mb-1">ساعات العمل</h3>
+                <p className="text-sm text-muted-foreground">يومياً: ١٠:٠٠ صباحاً – ٩:٠٠ مساءً</p>
               </div>
             </div>
 
-            {/* Social links */}
             <div className="flex gap-4 pt-2">
               <a
                 href="https://www.instagram.com/nuorbeauty?igsh=MXZ5enBwam9pdDAwbw=="
@@ -77,9 +75,8 @@ const ContactSection = () => {
             </div>
           </motion.div>
 
-          {/* Map */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden border border-border h-[400px]"
@@ -92,7 +89,7 @@ const ContactSection = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Noor Beauty Salon Location"
+              title="موقع صالون نور للتجميل"
             />
           </motion.div>
         </div>

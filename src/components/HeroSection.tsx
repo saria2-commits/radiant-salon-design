@@ -5,13 +5,11 @@ import heroBg from "@/assets/hero-bg.jpg";
 const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
       </div>
 
-      {/* Floating particles */}
       {[...Array(6)].map((_, i) => (
         <motion.div
           key={i}
@@ -34,7 +32,7 @@ const HeroSection = () => {
             transition={{ duration: 3, repeat: Infinity }}
           >
             <Sparkles size={14} className="text-gold" />
-            <span className="text-sm font-body text-primary-foreground/90">Where Beauty Meets Elegance</span>
+            <span className="text-sm font-body text-primary-foreground/90">حيث يلتقي الجمال بالأناقة</span>
           </motion.div>
         </motion.div>
 
@@ -44,10 +42,10 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground mb-6 leading-tight"
         >
-          Noor{" "}
-          <span className="italic font-medium">Beauty</span>
+          صالون{" "}
+          <span className="italic font-medium">نور</span>
           <br />
-          Salon
+          للتجميل
         </motion.h1>
 
         <motion.p
@@ -56,7 +54,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-lg mx-auto text-primary-foreground/80 text-lg md:text-xl font-body font-light mb-10"
         >
-          Discover the art of beauty in the heart of Damascus. We craft unforgettable looks for your most precious moments.
+          اكتشفي فن الجمال في قلب دمشق. نصنع لكِ إطلالات لا تُنسى في أجمل لحظاتك.
         </motion.p>
 
         <motion.div
@@ -69,18 +67,17 @@ const HeroSection = () => {
             href="tel:+963931431668"
             className="rounded-full bg-primary-foreground px-8 py-3.5 text-sm font-semibold text-primary hover:scale-105 transition-transform shadow-lg"
           >
-            Book Your Appointment
+            احجزي موعدك الآن
           </a>
           <a
             href="#portfolio"
             className="rounded-full border border-primary-foreground/40 px-8 py-3.5 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/10 transition"
           >
-            View Our Work
+            شاهدي أعمالنا
           </a>
         </motion.div>
       </div>
 
-      {/* Bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
     </section>
   );

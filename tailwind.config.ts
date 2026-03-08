@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['"Playfair Display"', 'serif'],
-        body: ['Raleway', 'sans-serif'],
+        heading: ['Amiri', 'serif'],
+        body: ['Tajawal', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
