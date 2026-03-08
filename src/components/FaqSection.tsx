@@ -8,28 +8,28 @@ import {
 
 const faqs = [
   {
-    q: "Do I need to book an appointment in advance?",
-    a: "Yes, we recommend booking at least 2-3 days in advance, especially for bridal and event makeup. You can call us at +963 931 431 668 or message us on Instagram.",
+    q: "هل أحتاج لحجز موعد مسبق؟",
+    a: "نعم، ننصح بالحجز قبل ٢-٣ أيام على الأقل، خاصة لمكياج العرائس والمناسبات. يمكنكِ الاتصال على الرقم +963 931 431 668 أو مراسلتنا عبر انستغرام.",
   },
   {
-    q: "What brands and products do you use?",
-    a: "We use premium, internationally recognized brands to ensure the best quality and long-lasting results. Our products are carefully selected for all skin types.",
+    q: "ما هي الماركات والمنتجات التي تستخدمونها؟",
+    a: "نستخدم منتجات فاخرة من ماركات عالمية معروفة لضمان أفضل جودة ونتائج تدوم طويلاً. منتجاتنا مختارة بعناية لتناسب جميع أنواع البشرة.",
   },
   {
-    q: "Do you offer bridal packages?",
-    a: "Absolutely! We offer comprehensive bridal packages that include makeup, hair styling, skincare prep, and trial sessions. Contact us for customized packages.",
+    q: "هل تقدمون باقات للعرائس؟",
+    a: "بالتأكيد! نقدم باقات شاملة للعرائس تتضمن المكياج، تسريحة الشعر، تحضير البشرة، وجلسة تجريبية. تواصلي معنا لباقات مخصصة.",
   },
   {
-    q: "Can I bring reference photos for my look?",
-    a: "Of course! We love working with inspiration photos. Bring any references and we'll collaborate to create the perfect look tailored to your features.",
+    q: "هل يمكنني إحضار صور مرجعية للإطلالة المطلوبة؟",
+    a: "بالطبع! نحب العمل مع صور الإلهام. أحضري أي مراجع وسنتعاون معكِ لابتكار الإطلالة المثالية التي تناسب ملامحك.",
   },
   {
-    q: "What are your working hours?",
-    a: "We are open daily from 10:00 AM to 9:00 PM. For bridal appointments, we can accommodate early morning sessions upon request.",
+    q: "ما هي ساعات العمل؟",
+    a: "نعمل يومياً من الساعة ١٠:٠٠ صباحاً حتى ٩:٠٠ مساءً. لمواعيد العرائس، يمكننا استقبالكِ في ساعات مبكرة بناءً على الطلب.",
   },
   {
-    q: "Do you offer home services?",
-    a: "Yes, we provide home service for bridal makeup and special events. Additional charges apply based on location. Please contact us for details.",
+    q: "هل تقدمون خدمة منزلية؟",
+    a: "نعم، نقدم خدمة منزلية لمكياج العرائس والمناسبات الخاصة. تُطبق رسوم إضافية حسب الموقع. يرجى التواصل معنا للتفاصيل.",
   },
 ];
 
@@ -43,9 +43,9 @@ const FaqSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">FAQ</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary">الأسئلة الشائعة</span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            Frequently Asked <span className="text-gradient italic">Questions</span>
+            أسئلة <span className="text-gradient italic">متكررة</span>
           </h2>
         </motion.div>
 

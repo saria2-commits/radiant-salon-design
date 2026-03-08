@@ -3,20 +3,19 @@ import { Heart, Award, Clock } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const stats = [
-  { icon: Heart, label: "Happy Clients", value: "2,000+" },
-  { icon: Award, label: "Years Experience", value: "8+" },
-  { icon: Clock, label: "Services Offered", value: "25+" },
+  { icon: Heart, label: "عميلة سعيدة", value: "+٢٠٠٠" },
+  { icon: Award, label: "سنوات خبرة", value: "+٨" },
+  { icon: Clock, label: "خدمة متنوعة", value: "+٢٥" },
 ];
 
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 bg-background relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-rose-glow opacity-50" />
+      <div className="absolute top-0 left-0 w-96 h-96 bg-rose-glow opacity-50" />
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* Image side */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
@@ -26,28 +25,27 @@ const AboutSection = () => {
               <div className="absolute inset-0 rounded-full bg-rose-light animate-pulse-glow" />
               <img
                 src={logo}
-                alt="Noor Beauty Salon"
+                alt="صالون نور للتجميل"
                 className="relative z-10 w-full h-full rounded-full object-cover shadow-2xl"
               />
             </div>
           </motion.div>
 
-          {/* Text side */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-sm font-semibold uppercase tracking-widest text-primary">About Us</span>
+            <span className="text-sm font-semibold uppercase tracking-widest text-primary">من نحن</span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2 mb-6">
-              Beauty is Our <span className="text-gradient italic">Passion</span>
+              الجمال هو <span className="text-gradient italic">شغفنا</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              At Noor Beauty Salon, we believe every woman deserves to feel radiant. Located in the heart of Damascus, our team of skilled artists brings together years of experience and a passion for perfection.
+              في صالون نور للتجميل، نؤمن بأن كل امرأة تستحق أن تشعر بالتألق والإشراق. يقع صالوننا في قلب دمشق، ويضم فريقاً من الفنانات المحترفات اللواتي يجمعن بين سنوات من الخبرة والشغف بالكمال.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              From bridal makeup to everyday glam, skincare treatments to stunning hairstyles — we craft looks that celebrate your unique beauty and leave you feeling confident and luminous.
+              من مكياج العرائس إلى الإطلالات اليومية، ومن علاجات البشرة إلى أروع التسريحات — نبتكر لكِ إطلالات تحتفي بجمالك الفريد وتمنحك الثقة والتألق.
             </p>
 
             <div className="grid grid-cols-3 gap-4">

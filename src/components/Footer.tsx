@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="bg-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center gap-6">
-          <img src={logo} alt="Noor Beauty Salon" className="w-16 h-16 rounded-full" />
+          <img src={logo} alt="صالون نور للتجميل" className="w-16 h-16 rounded-full" />
           <p className="text-sm text-muted max-w-md">
-            Noor Beauty Salon — Where every woman discovers her inner glow. Located in Damascus, Syria.
+            صالون نور للتجميل — حيث تكتشف كل امرأة إشراقتها الداخلية. في دمشق، سوريا.
           </p>
           <div className="flex gap-4">
             <a
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div className="border-t border-muted/20 w-full pt-6">
             <p className="text-xs text-muted/60 flex items-center justify-center gap-1">
-              Made with <Heart size={12} className="text-primary" /> © {new Date().getFullYear()} Noor Beauty Salon
+              صُنع بـ <Heart size={12} className="text-primary" /> © {new Date().getFullYear()} صالون نور للتجميل
             </p>
           </div>
         </div>

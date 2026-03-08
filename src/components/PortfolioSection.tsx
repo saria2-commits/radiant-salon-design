@@ -6,11 +6,11 @@ import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
 
 const images = [
-  { src: portfolio1, label: "Glam Makeup" },
-  { src: portfolio2, label: "Eye Art" },
-  { src: portfolio3, label: "Bridal Accessories" },
-  { src: portfolio5, label: "Hair Styling" },
-  { src: portfolio6, label: "Skincare" },
+  { src: portfolio1, label: "مكياج احترافي" },
+  { src: portfolio2, label: "فن العيون" },
+  { src: portfolio3, label: "إكسسوارات عرائس" },
+  { src: portfolio5, label: "تسريحات شعر" },
+  { src: portfolio6, label: "عناية بالبشرة" },
 ];
 
 const PortfolioSection = () => {
@@ -23,9 +23,9 @@ const PortfolioSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">Our Work</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary">أعمالنا</span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            Beauty <span className="text-gradient italic">Portfolio</span>
+            معرض <span className="text-gradient italic">الأعمال</span>
           </h2>
         </motion.div>
 
