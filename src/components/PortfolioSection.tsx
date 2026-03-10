@@ -4,11 +4,15 @@ import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
+import portfolio7 from "@/assets/portfolio-7.jpg";
+import portfolio8 from "@/assets/portfolio-8.jpg";
 
 const images = [
   { src: portfolio1, label: "مكياج احترافي" },
   { src: portfolio2, label: "فن العيون" },
   { src: portfolio3, label: "إكسسوارات عرائس" },
+  { src: portfolio7, label: "فن الأظافر" },
+  { src: portfolio8, label: "مكياج سهرات" },
   { src: portfolio5, label: "تسريحات شعر" },
   { src: portfolio6, label: "عناية بالبشرة" },
 ];
