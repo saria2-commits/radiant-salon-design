@@ -49,7 +49,7 @@ const ReviewsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="p-6 rounded-2xl bg-background border border-border hover:shadow-lg transition-shadow"
+              className="p-6 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm hover:bg-primary-foreground/15 transition-shadow"
             >
               <Quote size={24} className="text-primary/30 mb-3 scale-x-[-1]" />
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">{r.text}</p>
