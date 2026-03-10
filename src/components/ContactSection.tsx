@@ -3,8 +3,8 @@ import { Phone, MapPin, Instagram, Facebook, Clock } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-24 bg-cream relative overflow-hidden">
-      <div className="absolute top-10 left-10 w-72 h-72 bg-rose-glow opacity-30" />
+    <section id="contact" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(338 50% 30% / 0.8), hsl(338 70% 45% / 0.75), hsl(38 60% 50% / 0.65))' }}>
+      <div className="absolute top-10 left-10 w-72 h-72 bg-rose-glow opacity-20" />
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
