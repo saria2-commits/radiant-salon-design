@@ -35,7 +35,7 @@ const ServicesSection = () => {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
-              className="group relative p-8 rounded-2xl bg-background border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-xl cursor-pointer"
+              className="group relative p-8 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm hover:bg-primary-foreground/20 transition-all duration-300 hover:shadow-xl cursor-pointer"
             >
               <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity shimmer" />
               <div className="relative z-10">
