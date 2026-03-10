@@ -35,9 +35,9 @@ const ReviewsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">آراء العملاء</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            ماذا تقول <span className="text-gradient italic">عميلاتنا</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">آراء العملاء</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            ماذا تقول <span className="italic text-gold">عميلاتنا</span>
           </h2>
         </motion.div>
 
