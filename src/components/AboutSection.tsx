@@ -37,11 +37,11 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-sm font-semibold uppercase tracking-widest text-primary">من نحن</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2 mb-6">
-              الجمال هو <span className="text-gradient italic">شغفنا</span>
+            <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">من نحن</span>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2 mb-6">
+              الجمال هو <span className="italic text-gold">شغفنا</span>
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-primary-foreground/80 leading-relaxed mb-4">
               في صالون نور للتجميل، نؤمن بأن كل امرأة تستحق أن تشعر بالتألق والإشراق. يقع صالوننا في قلب دمشق، ويضم فريقاً من الفنانات المحترفات اللواتي يجمعن بين سنوات من الخبرة والشغف بالكمال.
             </p>
             <p className="text-primary-foreground/80 leading-relaxed mb-8">
