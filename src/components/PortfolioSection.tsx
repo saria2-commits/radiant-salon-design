@@ -27,9 +27,9 @@ const PortfolioSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">أعمالنا</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            معرض <span className="text-gradient italic">الأعمال</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">أعمالنا</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            معرض <span className="italic text-gold">الأعمال</span>
           </h2>
         </motion.div>
 

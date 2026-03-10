@@ -50,10 +50,10 @@ const AboutSection = () => {
 
             <div className="grid grid-cols-3 gap-4">
               {stats.map((s) => (
-                <div key={s.label} className="text-center p-4 rounded-xl bg-card border border-border">
-                  <s.icon className="mx-auto mb-2 text-primary" size={22} />
-                  <div className="font-heading text-2xl font-bold text-foreground">{s.value}</div>
-                  <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
+                <div key={s.label} className="text-center p-4 rounded-xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm">
+                  <s.icon className="mx-auto mb-2 text-gold" size={22} />
+                  <div className="font-heading text-2xl font-bold text-primary-foreground">{s.value}</div>
+                  <div className="text-xs text-primary-foreground/70 mt-1">{s.label}</div>
                 </div>
               ))}
             </div>

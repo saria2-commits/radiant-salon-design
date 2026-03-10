@@ -39,11 +39,11 @@ const ServicesSection = () => {
             >
               <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity shimmer" />
               <div className="relative z-10">
-                <div className="w-14 h-14 rounded-xl bg-rose-light flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  <s.icon size={24} className="text-primary group-hover:text-primary-foreground transition-colors" />
+                <div className="w-14 h-14 rounded-xl bg-primary-foreground/20 flex items-center justify-center mb-5 group-hover:bg-gold transition-colors">
+                  <s.icon size={24} className="text-gold group-hover:text-primary-foreground transition-colors" />
                 </div>
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-2">{s.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
+                <h3 className="font-heading text-xl font-semibold text-primary-foreground mb-2">{s.title}</h3>
+                <p className="text-sm text-primary-foreground/70 leading-relaxed">{s.desc}</p>
               </div>
             </motion.div>
           ))}

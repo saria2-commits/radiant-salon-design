@@ -51,10 +51,10 @@ const ReviewsSection = () => {
               transition={{ delay: i * 0.1, duration: 0.5 }}
               className="p-6 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm hover:bg-primary-foreground/15 transition-shadow"
             >
-              <Quote size={24} className="text-primary/30 mb-3 scale-x-[-1]" />
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">{r.text}</p>
+              <Quote size={24} className="text-gold/50 mb-3 scale-x-[-1]" />
+              <p className="text-sm text-primary-foreground/80 leading-relaxed mb-4">{r.text}</p>
               <div className="flex items-center justify-between">
-                <span className="font-heading font-semibold text-foreground">{r.name}</span>
+                <span className="font-heading font-semibold text-primary-foreground">{r.name}</span>
                 <div className="flex gap-0.5">
                   {[...Array(r.rating)].map((_, j) => (
                     <Star key={j} size={14} className="fill-gold text-gold" />

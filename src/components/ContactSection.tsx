@@ -79,7 +79,7 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="rounded-2xl overflow-hidden border border-border h-[400px]"
+            className="rounded-2xl overflow-hidden border border-primary-foreground/20 h-[400px]"
           >
             <iframe
               src="https://www.google.com/maps?q=G6QP%2B5MW+Damascus+Syria&output=embed"

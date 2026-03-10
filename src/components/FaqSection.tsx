@@ -61,10 +61,10 @@ const FaqSection = () => {
                 value={`item-${i}`}
                 className="rounded-xl border border-primary-foreground/20 bg-primary-foreground/10 backdrop-blur-sm px-5 data-[state=open]:border-gold/50"
               >
-                <AccordionTrigger className="font-heading text-base font-medium text-foreground hover:text-primary hover:no-underline py-4">
+                <AccordionTrigger className="font-heading text-base font-medium text-primary-foreground hover:text-gold hover:no-underline py-4">
                   {f.q}
                 </AccordionTrigger>
-                <AccordionContent className="text-sm text-muted-foreground leading-relaxed pb-4">
+                <AccordionContent className="text-sm text-primary-foreground/80 leading-relaxed pb-4">
                   {f.a}
                 </AccordionContent>
               </AccordionItem>
