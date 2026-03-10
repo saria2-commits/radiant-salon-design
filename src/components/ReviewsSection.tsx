@@ -26,8 +26,8 @@ const reviews = [
 
 const ReviewsSection = () => {
   return (
-    <section id="reviews" className="py-24 bg-cream relative overflow-hidden">
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-rose-glow opacity-40" />
+    <section id="reviews" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(338 50% 30% / 0.8), hsl(338 70% 45% / 0.75), hsl(38 60% 50% / 0.7))' }}>
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-rose-glow opacity-20" />
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
