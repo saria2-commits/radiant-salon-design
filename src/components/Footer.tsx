@@ -3,7 +3,7 @@ import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground py-12">
+    <footer className="relative py-12 overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(338 70% 25% / 0.95), hsl(338 50% 15% / 0.9), hsl(38 60% 30% / 0.8))' }}>
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center gap-6">
           <img src={logo} alt="صالون نور للتجميل" className="w-16 h-16 rounded-full" />

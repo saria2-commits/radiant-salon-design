@@ -35,7 +35,7 @@ const faqs = [
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="py-24 bg-background">
+    <section id="faq" className="py-24 relative" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.7), hsl(38 60% 60% / 0.6))' }}>
       <div className="container mx-auto px-4 max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -43,9 +43,9 @@ const FaqSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">الأسئلة الشائعة</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            أسئلة <span className="text-gradient italic">متكررة</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">الأسئلة الشائعة</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            أسئلة <span className="italic text-gold">متكررة</span>
           </h2>
         </motion.div>
 
@@ -59,12 +59,12 @@ const FaqSection = () => {
               <AccordionItem
                 key={i}
                 value={`item-${i}`}
-                className="rounded-xl border border-border bg-card px-5 data-[state=open]:border-primary/30"
+                className="rounded-xl border border-primary-foreground/20 bg-primary-foreground/10 backdrop-blur-sm px-5 data-[state=open]:border-gold/50"
               >
-                <AccordionTrigger className="font-heading text-base font-medium text-foreground hover:text-primary hover:no-underline py-4">
+                <AccordionTrigger className="font-heading text-base font-medium text-primary-foreground hover:text-gold hover:no-underline py-4">
                   {f.q}
                 </AccordionTrigger>
-                <AccordionContent className="text-sm text-muted-foreground leading-relaxed pb-4">
+                <AccordionContent className="text-sm text-primary-foreground/80 leading-relaxed pb-4">
                   {f.a}
                 </AccordionContent>
               </AccordionItem>

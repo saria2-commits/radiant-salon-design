@@ -4,18 +4,22 @@ import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
+import portfolio7 from "@/assets/portfolio-7.jpg";
+import portfolio8 from "@/assets/portfolio-8.jpg";
 
 const images = [
   { src: portfolio1, label: "مكياج احترافي" },
   { src: portfolio2, label: "فن العيون" },
   { src: portfolio3, label: "إكسسوارات عرائس" },
+  { src: portfolio7, label: "فن الأظافر" },
+  { src: portfolio8, label: "مكياج سهرات" },
   { src: portfolio5, label: "تسريحات شعر" },
   { src: portfolio6, label: "عناية بالبشرة" },
 ];
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="py-24 bg-background">
+    <section id="portfolio" className="py-24 relative" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.75), hsl(38 60% 60% / 0.6))' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -23,9 +27,9 @@ const PortfolioSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">أعمالنا</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            معرض <span className="text-gradient italic">الأعمال</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">أعمالنا</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            معرض <span className="italic text-gold">الأعمال</span>
           </h2>
         </motion.div>
 

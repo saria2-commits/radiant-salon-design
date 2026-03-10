@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="#hero" className="flex items-center gap-2">
           <img src={logo} alt="صالون نور للتجميل" className="h-12 w-12 rounded-full object-cover" />
-          <span className="font-heading text-xl font-bold text-foreground">نور <span className="text-gradient">بيوتي</span></span>
+          <span className="font-heading text-xl font-bold text-foreground">Nour <span className="text-gradient">Beauty</span></span>
         </a>
 
         <ul className="hidden md:flex items-center gap-6">

@@ -10,8 +10,8 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 bg-background relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-96 h-96 bg-rose-glow opacity-50" />
+    <section id="about" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.7), hsl(38 60% 60% / 0.6))' }}>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-rose-glow opacity-30" />
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -37,23 +37,23 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-sm font-semibold uppercase tracking-widest text-primary">من نحن</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2 mb-6">
-              الجمال هو <span className="text-gradient italic">شغفنا</span>
+            <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">من نحن</span>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2 mb-6">
+              الجمال هو <span className="italic text-gold">شغفنا</span>
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-primary-foreground/80 leading-relaxed mb-4">
               في صالون نور للتجميل، نؤمن بأن كل امرأة تستحق أن تشعر بالتألق والإشراق. يقع صالوننا في قلب دمشق، ويضم فريقاً من الفنانات المحترفات اللواتي يجمعن بين سنوات من الخبرة والشغف بالكمال.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
+            <p className="text-primary-foreground/80 leading-relaxed mb-8">
               من مكياج العرائس إلى الإطلالات اليومية، ومن علاجات البشرة إلى أروع التسريحات — نبتكر لكِ إطلالات تحتفي بجمالك الفريد وتمنحك الثقة والتألق.
             </p>
 
             <div className="grid grid-cols-3 gap-4">
               {stats.map((s) => (
-                <div key={s.label} className="text-center p-4 rounded-xl bg-card border border-border">
-                  <s.icon className="mx-auto mb-2 text-primary" size={22} />
-                  <div className="font-heading text-2xl font-bold text-foreground">{s.value}</div>
-                  <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
+                <div key={s.label} className="text-center p-4 rounded-xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm">
+                  <s.icon className="mx-auto mb-2 text-gold" size={22} />
+                  <div className="font-heading text-2xl font-bold text-primary-foreground">{s.value}</div>
+                  <div className="text-xs text-primary-foreground/70 mt-1">{s.label}</div>
                 </div>
               ))}
             </div>
