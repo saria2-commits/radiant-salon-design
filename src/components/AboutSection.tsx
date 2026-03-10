@@ -44,7 +44,7 @@ const AboutSection = () => {
             <p className="text-muted-foreground leading-relaxed mb-4">
               في صالون نور للتجميل، نؤمن بأن كل امرأة تستحق أن تشعر بالتألق والإشراق. يقع صالوننا في قلب دمشق، ويضم فريقاً من الفنانات المحترفات اللواتي يجمعن بين سنوات من الخبرة والشغف بالكمال.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
+            <p className="text-primary-foreground/80 leading-relaxed mb-8">
               من مكياج العرائس إلى الإطلالات اليومية، ومن علاجات البشرة إلى أروع التسريحات — نبتكر لكِ إطلالات تحتفي بجمالك الفريد وتمنحك الثقة والتألق.
             </p>
 
