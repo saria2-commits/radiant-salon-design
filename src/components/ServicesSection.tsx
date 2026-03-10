@@ -20,9 +20,9 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">ما نقدمه</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            <span className="text-gradient italic">خدماتنا</span> المميزة
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">ما نقدمه</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            <span className="italic text-gold">خدماتنا</span> المميزة
           </h2>
         </motion.div>
 
