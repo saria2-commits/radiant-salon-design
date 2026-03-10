@@ -43,9 +43,9 @@ const FaqSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">الأسئلة الشائعة</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            أسئلة <span className="text-gradient italic">متكررة</span>
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">الأسئلة الشائعة</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            أسئلة <span className="italic text-gold">متكررة</span>
           </h2>
         </motion.div>
 
