@@ -10,8 +10,8 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 bg-background relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-96 h-96 bg-rose-glow opacity-50" />
+    <section id="about" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.7), hsl(38 60% 60% / 0.6))' }}>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-rose-glow opacity-30" />
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div
