@@ -59,7 +59,7 @@ const FaqSection = () => {
               <AccordionItem
                 key={i}
                 value={`item-${i}`}
-                className="rounded-xl border border-border bg-card px-5 data-[state=open]:border-primary/30"
+                className="rounded-xl border border-primary-foreground/20 bg-primary-foreground/10 backdrop-blur-sm px-5 data-[state=open]:border-gold/50"
               >
                 <AccordionTrigger className="font-heading text-base font-medium text-foreground hover:text-primary hover:no-underline py-4">
                   {f.q}
