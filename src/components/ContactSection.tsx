@@ -60,7 +60,7 @@ const ContactSection = () => {
                 href="https://www.instagram.com/nuorbeauty?igsh=MXZ5enBwam9pdDAwbw=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-primary-foreground hover:opacity-90 transition"
+                className="w-12 h-12 rounded-xl bg-gold flex items-center justify-center text-primary-foreground hover:opacity-90 transition"
               >
                 <Instagram size={20} />
               </a>
