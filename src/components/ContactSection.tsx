@@ -12,9 +12,9 @@ const ContactSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-primary">تواصلي معنا</span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-2">
-            <span className="text-gradient italic">اتصلي</span> بنا
+          <span className="text-sm font-semibold uppercase tracking-widest text-primary-foreground/70">تواصلي معنا</span>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-2">
+            <span className="italic text-gold">اتصلي</span> بنا
           </h2>
         </motion.div>
 
