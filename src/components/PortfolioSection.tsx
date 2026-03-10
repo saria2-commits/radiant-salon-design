@@ -19,7 +19,7 @@ const images = [
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="py-24 bg-background">
+    <section id="portfolio" className="py-24 relative" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.75), hsl(38 60% 60% / 0.6))' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
