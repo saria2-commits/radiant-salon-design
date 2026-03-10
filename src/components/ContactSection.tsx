@@ -25,33 +25,33 @@ const ContactSection = () => {
             viewport={{ once: true }}
             className="space-y-5"
           >
-            <div className="p-6 rounded-2xl bg-background border border-border flex items-start gap-4">
-              <div className="w-12 h-12 rounded-xl bg-rose-light flex items-center justify-center shrink-0">
-                <Phone size={20} className="text-primary" />
+            <div className="p-6 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm flex items-start gap-4">
+              <div className="w-12 h-12 rounded-xl bg-primary-foreground/20 flex items-center justify-center shrink-0">
+                <Phone size={20} className="text-gold" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">احجزي موعدك</h3>
-                <a href="tel:+963931431668" className="text-primary hover:underline text-sm" dir="ltr">+963 931 431 668</a>
+                <h3 className="font-heading font-semibold text-primary-foreground mb-1">احجزي موعدك</h3>
+                <a href="tel:+963931431668" className="text-gold hover:underline text-sm" dir="ltr">+963 931 431 668</a>
               </div>
             </div>
 
-            <div className="p-6 rounded-2xl bg-background border border-border flex items-start gap-4">
-              <div className="w-12 h-12 rounded-xl bg-rose-light flex items-center justify-center shrink-0">
-                <MapPin size={20} className="text-primary" />
+            <div className="p-6 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm flex items-start gap-4">
+              <div className="w-12 h-12 rounded-xl bg-primary-foreground/20 flex items-center justify-center shrink-0">
+                <MapPin size={20} className="text-gold" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">موقعنا</h3>
-                <p className="text-sm text-muted-foreground">G6QP+5MW، دمشق، سوريا</p>
+                <h3 className="font-heading font-semibold text-primary-foreground mb-1">موقعنا</h3>
+                <p className="text-sm text-primary-foreground/80">G6QP+5MW، دمشق، سوريا</p>
               </div>
             </div>
 
-            <div className="p-6 rounded-2xl bg-background border border-border flex items-start gap-4">
-              <div className="w-12 h-12 rounded-xl bg-rose-light flex items-center justify-center shrink-0">
-                <Clock size={20} className="text-primary" />
+            <div className="p-6 rounded-2xl bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm flex items-start gap-4">
+              <div className="w-12 h-12 rounded-xl bg-primary-foreground/20 flex items-center justify-center shrink-0">
+                <Clock size={20} className="text-gold" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-foreground mb-1">ساعات العمل</h3>
-                <p className="text-sm text-muted-foreground">يومياً: ١٠:٠٠ صباحاً – ٩:٠٠ مساءً</p>
+                <h3 className="font-heading font-semibold text-primary-foreground mb-1">ساعات العمل</h3>
+                <p className="text-sm text-primary-foreground/80">يومياً: ١٠:٠٠ صباحاً – ٩:٠٠ مساءً</p>
               </div>
             </div>
 
