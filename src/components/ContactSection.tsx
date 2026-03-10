@@ -68,7 +68,7 @@ const ContactSection = () => {
                 href="https://www.facebook.com/Nour.Alashkar.26"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-primary-foreground hover:opacity-90 transition"
+                className="w-12 h-12 rounded-xl bg-gold flex items-center justify-center text-primary-foreground hover:opacity-90 transition"
               >
                 <Facebook size={20} />
               </a>
