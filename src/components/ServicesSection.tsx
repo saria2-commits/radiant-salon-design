@@ -12,7 +12,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-24 bg-cream relative">
+    <section id="services" className="py-24 relative" style={{ background: 'linear-gradient(135deg, hsl(338 50% 30% / 0.75), hsl(338 70% 45% / 0.8), hsl(38 60% 50% / 0.65))' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
