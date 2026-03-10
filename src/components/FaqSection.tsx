@@ -35,7 +35,7 @@ const faqs = [
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="py-24 bg-background">
+    <section id="faq" className="py-24 relative" style={{ background: 'linear-gradient(135deg, hsl(338 70% 55% / 0.85), hsl(338 50% 30% / 0.7), hsl(38 60% 60% / 0.6))' }}>
       <div className="container mx-auto px-4 max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
